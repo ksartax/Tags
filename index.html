@@ -1,0 +1,141 @@
+<abbr title="Uniwersytet Przyrodniczy Siedlce">UPS</abbr> xD <br/>
+<address>
+  Imie : Damian </br>
+  sdsd : dsasad </br>
+</address>
+<map name="ss">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+<article>
+  <h1>Article</h1>
+  <aside>
+    <h2> Aside </h2>
+  </aside>
+</article>
+<audio controls>
+  <source src="https://" type="audio/ogg">
+</audio>
+<b>Bold</b>
+<base href="#" target="_blank"> <br/>
+User <bdi>Kuba</bdi> <br/>
+<bdo dir="rtl">
+  Damian Stepniak <br/>
+</bdo>
+<bdo dir="ltr">
+  Damian Stepniak <br/>
+</bdo>
+<blockquote cite="http://"></blockquote>
+<canvas id="canvas"></canvas>
+<table>
+  <caption>Cos</caption>
+  <tr>
+    <th>A</th>
+    <th>B</th>
+  </tr>
+</table>
+<p> <cite>Praca</cite> </p> <br/>
+<table style="border: 1px solid black">
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+  </tr>
+</table>
+<input list="lista" name="" value="">
+<datalist id="lista">
+  <option value="A"></option>
+  <option value="B"></option>
+  <option value="C"></option>
+</datalist>
+<dl>
+  <dt>Glowa</dt>
+  <dd>Reka</dd>
+</dl>
+<del>Kas</del><ins>Add</ins>
+<embed src="helloworld.swf">
+<fieldset>
+  <legend>Text</legend>
+  Kuba <input type="text" name="" value=""> <br/>
+</fieldset>
+<font size="3" color="red">AA!</font>
+<i>Sss</i>
+<iframe src="http://www.w3ii.com"></iframe>
+Username: <input type="text" name="usr_name">
+Encryption: <keygen name="security"><br/>
+test <mark>ssss</mark> <br/>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Opis">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Damian ">
+</head>
+<meter value="20" min="0" max="100"></meter>
+<noscript>Nie obsługuje</noscript>
+<select class="" name="">
+  <optgroup label="nr1">
+    <option value="A"></option>
+  </optgroup>
+  <optgroup label="nr2">
+    <option value="B"></option>
+  </optgroup>
+</select>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)"> 0
+  <input type="range" id="a" value="50"> 100
+  <input type="number" id="b" value="10"> =
+  <output name="x"></output>
+</form>
+<form oninput="x.value='Witaj: '+y.value">
+  <input type="text" id="y" value="">
+  <output name="x"></output>
+</form>
+<progress value="22" max="100"></progress>
+Witaj <q>AASSDS</q> <br>
+Witaj <s>AASSDS</s> <br>
+Witaj <sub>AASSDS</sub> <br>
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+</style>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("Text", ev.target.id);
+}
+
+function drop(ev) {
+    var data = ev.dataTransfer.getData("Text");
+    ev.target.appendChild(document.getElementById(data));
+    ev.preventDefault();
+}
+</script>
+</head>
+<body>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<p id="drag1" draggable="true" ondragstart="drag(event)">Drag</p>
+
+</body>
+</html>
